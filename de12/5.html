@@ -1,0 +1,28 @@
+<!DOCTYPE html
+<html lang="jp">
+<head>
+    <title>第5回 hibi045</title>
+    </head>
+    <body>
+        <div>
+            <h1>ゲーム作成</h1><br>
+            <h2>血液型×星座占い</h2><br>
+            血液型と星座を入力すると性格を診断してくれるゲーム<br>
+            ゲーム性を持たせる意味で結果はランダムになっている。
+            <a href="https://youtu.be/sYZF4oFMOgc" target="_blank">プレイ動画</a>
+
+        </div>
+        <code>
+            <ol start="1" style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#EEF;color:#000;">
+            <li style="background-color:#EFF;">blood=input(<font style="color:brown;">"あなたの血液型は？"</font>)</li>
+            <li style="background-color:#EEF;">seiza=input(<font style="color:brown;">"あなたの星座は？"</font>)</li>
+            <li style="background-color:#EFF;"></li>
+            <li style="background-color:#EEF;"></li>
+            <li style="background-color:#EFF;"></li>
+            <li style="background-color:#EEF;">import random</li>
+            <li style="background-color:#EFF;">items=(<font style="color:brown;">"おっとり"</font>,<font style="color:brown;">"勇敢"</font>,<font style="color:brown;">"せっかち"</font>,<font style="color:brown;">"呑気"</font>,<font style="color:brown;">"穏やか"</font>,<font style="color:brown;">"生意気"</font>,<font style="color:brown;">"慎重"</font>)</li>
+            <li style="background-color:#EEF;"></li>
+            <li style="background-color:#EFF;">print(<font style="color:brown;">"あなたの"</font>,random.choice(items),<font style="color:brown;">"な性格です。"</font>)</li>
+            <li style="background-color:#EEF;"></li>
+            </ol></code>
+            
